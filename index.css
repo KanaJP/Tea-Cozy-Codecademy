@@ -1,0 +1,128 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    height: 50px;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.navbar a {
+    text-decoration: underline;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.our-mission {
+    background-image: url("./resources/images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-content: center;
+    justify-content: center;
+}
+
+.our-mission h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.our-mission h4 {
+    position: relative;
+    top: 0px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.tea-pic {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.tea-pic img {
+    width: 300px;
+    height: 200px;
+    margin: 10px 15px;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+}
+
+.our-locations {
+    background-image: url(./resources/images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.our-locations h2 {
+    background: none;
+    margin-bottom: 15px;
+    font-size: larger;
+}
+
+.location-box {
+    display: flex;
+    justify-content: space-evenly;
+    background: none;
+}
+
+.location-detail {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-detail h3 {
+    font-weight: bold;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
